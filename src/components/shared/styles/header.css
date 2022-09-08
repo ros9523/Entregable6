@@ -1,0 +1,35 @@
+.active-link{
+    border-bottom: blue;
+}
+
+.header{
+   
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    padding: 10px;
+    justify-content: space-between;
+    
+}
+
+.header_logo{
+    font-family: sans-serif;
+}
+
+ul{
+    display: flex;
+    gap: 200px;
+    list-style: none;
+    padding: 15px;
+}
+
+.header__item__cart{
+    font-size: 48px;
+   
+}
+
+.bx-cart{
+    font-size: 48px; 
+}
+
+

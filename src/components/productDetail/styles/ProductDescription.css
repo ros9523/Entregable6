@@ -1,0 +1,32 @@
+.image{
+    width: 200px;
+    height: 250px;
+    object-fit: contain;
+    
+}
+
+p{
+    width: 300px;
+}
+
+.section_description{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    
+  
+}
+
+.product-description--elements{
+text-align: center;
+
+}
+
+
+@media (min-width:700px){
+    .product-description{
+        width: 1200px;
+}
+}
